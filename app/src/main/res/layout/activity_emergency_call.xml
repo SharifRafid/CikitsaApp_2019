@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme1"
+    tools:context=".emergency_call">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/list_design"
+            android:fontFamily="@font/bensenhand_font"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="ইমার্জেন্সি কল"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/hotline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/emergency_button__design"
+                    android:fontFamily="@font/bensenhand_font"
+                    android:padding="15dp"
+                    android:text="ইমারজেন্সি হট লাইন \n৯৯৯"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/pourosova"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/emergency_button__design"
+                    android:fontFamily="@font/bensenhand_font"
+                    android:padding="15dp"
+                    android:text="পৌরসভা"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/fireservice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/emergency_button__design"
+                    android:fontFamily="@font/bensenhand_font"
+                    android:padding="15dp"
+                    android:text="ফায়ার সার্ভিস"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/thana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/emergency_button__design"
+                    android:fontFamily="@font/bensenhand_font"
+                    android:padding="15dp"
+                    android:text="মাগুরা থানা"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/sadar_hosp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/emergency_button__design"
+                    android:fontFamily="@font/bensenhand_font"
+                    android:padding="15dp"
+                    android:text="সদর হাসপাতাল"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/ambulance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/emergency_button__design"
+                    android:fontFamily="@font/bensenhand_font"
+                    android:padding="15dp"
+                    android:text="অ্যাম্বুলেন্স"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/nari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/emergency_button__design"
+                    android:fontFamily="@font/bensenhand_font"
+                    android:padding="15dp"
+                    android:text="নারী ও শিশু নির্যাতন\nঅধিদপ্তর"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
